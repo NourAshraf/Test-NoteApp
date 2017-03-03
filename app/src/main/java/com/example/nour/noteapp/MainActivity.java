@@ -26,12 +26,12 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
     private Context mContext;
     private ArrayAdapter<NoteData> mAdapter;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Variables();
+        //Hello
     }
 
     private void Variables() {
